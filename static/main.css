@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(62, 90, 66);
+}
+.container{
+    margin: 0 auto;
+    width: 100%;height: 100%;
+    color:#dadacd;
+    overflow: hidden;
+    text-align: center;
+}
+.container h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.container h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.container form{
+    margin: 30px;
+}
+.container input{
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    margin: 3px;
+    padding: 14px;
+    transition: all 0.2s ease-in-out;
+}
+.container button{
+  width: 100px;
+  height: 40px;  
+  background-color: rgb(13, 199, 245);
+}
+.container .emailCheck{
+  font-size: medium;
+}
+.container .spamFolder{
+    font-size:smaller;
+}
+.container .message{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
